@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: green;
+}
+
+.container {
+    margin-left: 25%;
+    width: 240px;
+    position: relative;
+}
+
+.display {
+    min-height: 120px;
+    width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+#display {
+    height: 80px;
+    width: 100%;
+    font-size: 20px;
+    max-lines: 3;
+    border-radius: 2rem 2rem 0 0;
+    border: 1px solid thistle;
+}
+
+
+ul {
+    list-style: none;
+}
+.button {
+    position: absolute;
+    top: 80px;
+    height: 280px;
+    width: 240px;
+    background-color: thistle;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 0 0 2rem 2rem;
+
+}
+.btn {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+#btnplus {
+    width: 120px;
+}
