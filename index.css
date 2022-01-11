@@ -6,12 +6,12 @@
 
 h1 {
     text-align: center;
-    margin: 2rem;
     color: green;
+    margin: 2rem 0;
 }
 
 .container {
-    margin-left: 25%;
+    margin: auto;
     width: 240px;
     position: relative;
 }
